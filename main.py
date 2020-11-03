@@ -1,10 +1,12 @@
 import cv2
-import numpy as np
+# import numpy
 
 cap = cv2.VideoCapture(0)
 
 while(True):
     ret, frame = cap.read()
+
+    cap.set(0, 780)
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
