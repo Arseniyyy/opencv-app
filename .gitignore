@@ -2,3 +2,4 @@
 videos
 .gitignore
 __pycache__
+blurred_video.py
