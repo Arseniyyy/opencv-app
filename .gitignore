@@ -1,5 +1,6 @@
 .idea
 videos
+images
 .gitignore
 __pycache__
 blurred_video.py
